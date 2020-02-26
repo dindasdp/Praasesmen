@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Pra-Asesmen</string>
+    <string name="segitiga">Segitiga</string>
+    <string name="persegiPanjang">Persegi Panjang</string>
+    <string name="panjang">Panjang</string>
+    <string name="lebar">Lebar</string>
+    <string name="hitung">Hitung</string>
+    <string name="luas">Luas =</string>
+    <string name="keliling">Keliling =</string>
+    <string name="share">Share</string>
+</resources>

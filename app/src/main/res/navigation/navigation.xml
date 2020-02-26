@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/home2">
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.example.pra_asesmen.Home"
+        android:label="Home" >
+        <action
+            android:id="@+id/action_home2_to_persegiPanjang2"
+            app:destination="@id/persegiPanjang2" />
+        <action
+            android:id="@+id/action_home2_to_segitiga3"
+            app:destination="@id/segitiga3" />
+    </fragment>
+    <fragment
+        android:id="@+id/persegiPanjang2"
+        android:name="com.example.pra_asesmen.PersegiPanjang"
+        android:label="PersegiPanjang" />
+    <fragment
+        android:id="@+id/segitiga3"
+        android:name="com.example.pra_asesmen.Segitiga"
+        android:label="Segitiga" />
+    <fragment
+        android:id="@+id/about"
+        android:name="com.example.pra_asesmen.About"
+        android:label="About" />
+</navigation>
